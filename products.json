@@ -1,0 +1,370 @@
+[
+    {   
+        "ID": "MB001",
+        "désignation": "Chicken Casserole Dry Food",
+        "prix": 100,
+        "catégorie":"DRY FOOD",
+        "disponibilité":[
+            "Tanger ","Agadir ","Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs1",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB002",
+        "désignation": "White Fish & Salmon Dry Food",
+        "prix": 200,
+        "catégorie":"DRY FOOD",
+        "disponibilité":[
+            "Tanger ","casablanca ","marrakech"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs2",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB003",
+        "désignation": "Fish & Turkey Senior Dry Food",
+        "prix": 150,
+        "catégorie":"DRY FOOD",
+        "disponibilité":[
+            "Tanger ","marrakech "
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs3",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB004",
+        "désignation": "Chicken & White Fish Kitten Dry Food",
+        "prix": 150,
+        "catégorie":"DRY FOOD",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs4",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB005",
+        "désignation": "Chicken Casserole Dry Food (4 x 800g)",
+        "prix": 300,
+        "catégorie":"DRY FOOD",
+        "disponibilité":[
+            "Tanger ","casablanca ","marrakech"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs5",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB006",
+        "désignation": "Be My Valentine Paté (85g)",
+        "prix": 200,
+        "catégorie":"WET FOOD",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs6",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB007",
+        "désignation": "Kitten Paté Selection 8 x 85g Multipack",
+        "prix": 350,
+        "catégorie":"WET FOOD",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat",
+            "casablanca "
+            ,"marrakech"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs7",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB008",
+        "désignation": "Chicken & Cod Paté for Kittens",
+        "prix": 70,
+        "catégorie":"WET FOOD",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs8",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB009",
+        "désignation": "Chicken & Ocean Fish Tasty Cuts in Gravy for Kittens",
+        "prix": 50,
+        "catégorie":"WET FOOD",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs9",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB010",
+        "désignation": "Christmas Turkey & Ham Feast",
+        "prix": 100,
+        "catégorie":"WET FOOD",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs10",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB011",
+        "désignation": "Chicken Treats",
+        "prix": 30,
+        "catégorie":"TREATS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs11",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB012",
+        "désignation": "Salmon Treats (60g)",
+        "prix": 200,
+        "catégorie":"TREATS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs12",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB013",
+        "désignation": "Chicken Treats (10 X 60g)",
+        "prix": 100,
+        "catégorie":"TREATS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs13",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB014",
+        "désignation": "Salmon Treats (10 x 60g)",
+        "prix": 150,
+        "catégorie":"TREATS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs14",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB015",
+        "désignation": "Trial Pack for Cats",
+        "prix": 300,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs15",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB016",
+        "désignation": "Trial Pack for Kittens",
+        "prix": 210,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs16",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB017",
+        "désignation": "Kitten Paté Selection 8 x 85g Multipack",
+        "prix": 180,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs17",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB018",
+        "désignation": "Kitten Paté Selection 32 x 85g Multipack",
+        "prix": 350,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs18",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB019",
+        "désignation": "Paté Selection for Mature Cats 8 x 85g Multipack",
+        "prix": 120,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs19",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB020",
+        "désignation": "Tasty Cuts in Gravy 8 x 85g Multipack",
+        "prix": 180,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs20",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB021",
+        "désignation": "Shredded Fillets 32 x 70g Multipack",
+        "prix": 350,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs21",
+            "Adresse":"adresse1"
+        }
+
+    
+    },
+    {   
+        "ID": "MB022",
+        "désignation": "Organic Paté 8 x 85g Multipack",
+        "prix": 200,
+        "catégorie":"MULTIPACKS",
+        "disponibilité":[
+            "Tanger ",
+            "Agadir ",
+            "Rabat"
+        ],
+        "fournisseur":{
+            "Raison-Sociale":"rs22",
+            "Adresse":"adresse1"
+        }
+
+    
+    }
+]

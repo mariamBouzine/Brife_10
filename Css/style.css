@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#table{
+    margin-top: 50px;
+}
+.pagination {
+	background: #343a40;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#numbers {
+	padding: 0;
+	margin: 0 2rem;
+	list-style-type: none;
+	display: flex;
+}
+
+#numbers li a {
+	color: #fff;
+	padding: .5rem 1rem;
+	text-decoration: none;
+	opacity: .7;
+}
+
+#numbers li a:hover {
+	opacity: 1;
+}
+
+#numbers li a.active {
+	opacity: 1;
+	background: #fff;
+	color: #333;
+}
+i{
+    cursor: pointer;
+}
