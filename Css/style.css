@@ -42,3 +42,12 @@
 i{
     cursor: pointer;
 }
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Mochiy+Pop+P+One&family=Roboto+Condensed&family=Roboto:wght@100&family=Rubik+Beastly&family=Rubik:wght@300&family=Sarpanch:wght@400;600&display=swap');#logo{
+	font-family: 'Lora', serif;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Rubik', sans-serif;
+	font-family: 'Rubik Beastly', cursive;
+	font-family: 'Sarpanch', sans-serif;
+}

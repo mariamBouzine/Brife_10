@@ -1,14 +1,19 @@
 
 var tbody = $("tbody");
 var AllData;
+var x=1
 function Data(){
   $.get("products.json",function(data){
     AllData = data;
     console.log(AllData)
      table(AllData)
+    //  displayRows(1) 
   })
 }
 Data()
+
+
+////////////////insert table /////////////////////
 function table(AllData){
     AllData.forEach(element =>{
       var ul = document.createElement("ul");
@@ -28,6 +33,8 @@ function table(AllData){
         )
     })
 }
+
+/////////////////input search //////////////////////
 $(document).ready(function(){
   var search1 = document.getElementById("#search")
     $("#search").on("keyup",function(){
@@ -91,7 +98,7 @@ function sort_Table(e, direction){
   var sort_tbl= e.parentElement.innerText.trim(); 
   if(direction == "desc"){
     AllData.sort(function(a,b){
-          if(a[sort_tbl].toLowerCase() > b[sort_tbl].toLowerCase()){
+          if(a[sort_tbl].toLowerCase() < b[sort_tbl].toLowerCase()){
             return -1
           }
           
@@ -99,34 +106,37 @@ function sort_Table(e, direction){
   }
   else{
     AllData.sort(function(a,b){
-          if(a[sort_tbl].toLowerCase() < b[sort_tbl].toLowerCase()){
+          if(a[sort_tbl].toLowerCase() > b[sort_tbl].toLowerCase()){
             return -1
           }
       })
   }
   document.getElementById("tbody").innerHTML="";
   table(AllData);
-  displayRows(1);
+  // displayRows(x);
 }
 
 function sort_Table_nbr(e,direction){
   var sort_tbl= e.parentElement.innerText.trim(); 
   if(direction == "desc"){
     AllData.sort(function(a,b){
-      if(a[sort_tbl] > b[sort_tbl]){
-        return -1
-      }
-      
+      // if(a[sort_tbl] > b[sort_tbl]){
+      //   return 1
+      // }
+      return  a[sort_tbl] - b[sort_tbl]
   })
+      
   }
-  else{
+  else if(direction == "asc"){
     AllData.sort(function(a,b){
-          if(a[sort_tbl] < b[sort_tbl]){
-            return -1
-          }
+          // if(a[sort_tbl] < b[sort_tbl]){
+          //   return -1
+          // }
+          return   b[sort_tbl] - a[sort_tbl]
       })
   }
   document.getElementById("tbody").innerHTML=""
   table(AllData)
-  displayRows(1)
+  // displayRows(x)
+  
 }
