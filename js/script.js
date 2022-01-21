@@ -55,7 +55,17 @@ $(document).ready(function() {
 	var rowsCount = rows.length;
 	var pageCount = Math.ceil(rowsCount / rowsPerPage); // avoid decimals
 	var numbers = $('#numbers');
-	
+
+	// Function that displays rows for a specific page.
+	function displayRows(index) {
+		var start = (index - 1) * rowsPerPage;
+		var end = start + rowsPerPage;
+		
+		// Hide all rows.
+		rows.hide();
+		rows.slice(start, end).show();
+	}
+  
 	for (var i = 0; i < pageCount; i++) {
 		numbers.append('<li><a href="#">' + (i+1) + '</a></li>');
 	}	
@@ -73,15 +83,7 @@ $(document).ready(function() {
 		displayRows($this.text());
 	});
 	
-	// Function that displays rows for a specific page.
-	function displayRows(index) {
-		var start = (index - 1) * rowsPerPage;
-		var end = start + rowsPerPage;
-		
-		// Hide all rows.
-		rows.hide();
-		rows.slice(start, end).show();
-	}
+	
 });
 
 ////////////////////sort table///////////////////////////
@@ -102,9 +104,9 @@ function sort_Table(e, direction){
           }
       })
   }
-  document.getElementById("tbody").innerHTML=""
-  table(AllData)
- 
+  document.getElementById("tbody").innerHTML="";
+  table(AllData);
+  displayRows(1);
 }
 
 function sort_Table_nbr(e,direction){
@@ -126,4 +128,5 @@ function sort_Table_nbr(e,direction){
   }
   document.getElementById("tbody").innerHTML=""
   table(AllData)
+  displayRows(1)
 }
