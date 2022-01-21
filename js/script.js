@@ -1,5 +1,5 @@
 
-var tbody = $("tbody")[0];
+var tbody = $("tbody");
 var AllData;
 function Data(){
   $.get("products.json",function(data){
@@ -10,7 +10,7 @@ function Data(){
 }
 Data()
 function table(AllData){
-    AllData.forEach(element=>{
+    AllData.forEach(element =>{
       var ul = document.createElement("ul");
       element.disponibilité.forEach(av => {
           var li = document.createElement("li");
@@ -102,5 +102,28 @@ function sort_Table(e, direction){
           }
       })
   }
+  document.getElementById("tbody").innerHTML=""
+  table(AllData)
  
+}
+
+function sort_Table_nbr(e,direction){
+  var sort_tbl= e.parentElement.innerText.trim(); 
+  if(direction == "desc"){
+    AllData.sort(function(a,b){
+      if(a[sort_tbl] > b[sort_tbl]){
+        return -1
+      }
+      
+  })
+  }
+  else{
+    AllData.sort(function(a,b){
+          if(a[sort_tbl] < b[sort_tbl]){
+            return -1
+          }
+      })
+  }
+  document.getElementById("tbody").innerHTML=""
+  table(AllData)
 }
